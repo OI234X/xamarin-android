@@ -17,7 +17,7 @@ RUN mkdir -p /android/sdk && \
     
 RUN cd /android/sdk && \
     yes | ./tools/bin/sdkmanager --licenses && \
-    ./tools/bin/sdkmanager 'build-tools;29.3.0' platform-tools 'platforms;android-29'
+    ./tools/bin/sdkmanager 'build-tools;29.0.3' platform-tools 'platforms;android-29'
     
 RUN cd /android/sdk && \
     yes | ./tools/bin/sdkmanager --licenses && \
